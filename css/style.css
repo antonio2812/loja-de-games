@@ -28,14 +28,10 @@ padding-left: 1%;
 }
 
 #cabeçalho{
-background-color: rgb(58, 56, 56);
+background-color: rgb(113, 109, 109);
 }
 
 #lista_ordenada{
 display: inline;
 list-style: none;
-}
-
-li ::before{
-    content: "/";
 }
