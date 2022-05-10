@@ -1,0 +1,28 @@
+#acessibilidade{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+}
+
+#atalhos{
+padding-left: 2%;
+list-style: none;
+}
+
+#atalhos li{
+display: inline;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#pgacess{
+padding-left: 45%;
+}
+
+.contraste{
+padding-left: 1%;
+}
+
+.fonte{
+padding-left: 1%;
+}
