@@ -10,7 +10,7 @@
 <body>
 
 <main>
-    <div>
+    <div id="acessibilidade">
     <ul id="atalhos">
         <li><a href="#conteudo" accesskey="1" title="Ir para o conteúdo">Ir para o conteúdo [1]</a></li>
         <li><a href="#menu" accesskey="2" title="Ir para o menu de navegação">Ir para o menu [2]</a></li>
@@ -24,32 +24,39 @@
 </div>
 
 <header id="cabeçalho">
-<img src="" alt="imagem god of war">
+<img src="Untitled-1.png" alt="logo do site">
 <nav>
-<a href="index.html">Início</a>
-<select>
+<a class="link1" href="index.html">Início</a>
+<select class="lista0">
 <option value=""selected disabled>Categorias</option>
 <option><a href="index.html">Xbox</a></option>
 <option><a href="playstation.html">Playstation</a></option>
 <option><a href="nintendo.html">Nintendo</a></option>
 </select>
-<a href="cadastro.html">Cadastrar-se</a>
-<a href="entrar.html">Entrar</a>
+<a class="link2" href="cadastro.html">Cadastrar-se</a>
+<a class="link3" href="entrar.html">Entrar</a>
 </nav>
 </header>
-
-
-<ol id="lista_ordenda">
-    <li>
-        <a href="index.html">Início</a>
-    </li>
-    <li>
-        Xbox
-    </li>
-</ol>
-
-
+ 
 </main>
 
+<ul id="lista_nao_ordenada">
+    <li><a href="index.html">Início</a></li>
+    <li>Xbox</li>
+    </ul>
+    
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+
+<img src="i328744.jpeg" alt="imagem gta 5">
 </body>
 </html>
