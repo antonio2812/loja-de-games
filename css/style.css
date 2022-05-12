@@ -1,44 +1,14 @@
-#acessibilidade{
-    width: 100%;
-    height: auto;
-    background-color: #fff;
-    margin: auto;
-    padding-right: 5%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#atalhos{
-padding-left: 2%;
-list-style: none;
+li a{
+display: block;
+list-style-type: none;
 color: #000;
-}
-
-#atalhos li{
-display: inline;
-font-family: Arial, Helvetica, sans-serif;
-color: #000;
-}
-
-#pgacess{
-padding-left: 45%;
-color: #000;
-}
-
-.contraste{
 padding-left: 1%;
-color: #000;
+padding-right: 1%;
 }
 
-.fonte{
-padding-left: 1%;
-}
-
-#cabeçalho{
-background-color: rgb(113, 109, 109);
-}
-
-#lista_ordenada{
-display: inline;
-list-style: none;
-}
