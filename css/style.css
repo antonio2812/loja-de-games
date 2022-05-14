@@ -79,22 +79,37 @@ color: white;
 
 .paragrafo011{
     position: absolute;
-    padding-top: 35%;
+    padding-top: 34%;
     padding-left: 45%;
     padding-right: 45%;
-    background-image:linear-gradient(to right, rgb(26, 25, 114), rgb(14, 108, 185));
+    background-image: linear-gradient(45deg, rgb(19, 22, 119), rgb(53, 139, 238));
+    background-size: 300% 300%;
+    margin-top: 1%;
     margin-left: 5%;
     width: 80%;
     height: 50%;
     object-fit: cover;
 }
 
+@keyframes colors{
+    0%{
+background-position: 0% 50%;
+    }
+    50%{
+background-position: 100% 50%;
+    }
+    100%{
+background-position: 0% 50%;
+    }
+}
+
 .paragrafo08{
     position: absolute;
-    padding-top: 35%;
+    padding-top: 34%;
     padding-left: 45%;
     padding-right: 45%;
     background-image: linear-gradient(to right, rgb(8, 90, 19), rgb(12, 131, 12));
+    margin-top: 1%;
     margin-left: 5%;
     width: 80%;
     height: 60%;
@@ -124,12 +139,6 @@ color: white;
     left: 1%;
     bottom: 85%;
     object-fit: cover;
-}
-
-.secao28{
-    margin-left: 1%;
-    margin-top: 0.5%;
-    margin-bottom: 1%;
 }
 
 .opcao0{
@@ -179,7 +188,7 @@ section ol li{
 }
 
 section ol li::after{
-    content: '/';
+    content: '>>';
     margin-right: 10px;
     color: #666;
     font-size: .8em;
@@ -213,7 +222,7 @@ color: rgb(24, 139, 233);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 0.6%;
     margin-bottom: 18%;
-    margin-left: 30%;
+    margin-left: 31%;
     color: black;
     font-size: 23px;
 }
@@ -293,7 +302,7 @@ left: 9%;
 .imagem004{
 position: absolute;
 top: 120%;
-left: 34%;
+left: 35%;
 height: 35%;
 object-fit: cover;
 }
@@ -317,7 +326,7 @@ object-fit: cover;
 .imagem4{
     position: absolute;
     top: 99%;
-    left: 27.8%;
+    left: 26%;
     height: 78%;
     object-fit: cover;
 }
