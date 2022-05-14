@@ -47,7 +47,36 @@ color: white;
     cursor: pointer;
 }
 
+:root{
+    --cor-fundo : rgb(24, 139, 233);
+    --cor-hover : rgb(24, 139, 233);
+    --cor-primaria: #fff;
+}
 
+.navegacao20 ul{
+list-style-type: none;
+padding: 0;
+position: absolute;
+}
+
+.navegacao20 ul li{
+display: inline-block;
+}
+
+.navegacao20 ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navegacao20 ul li a:hover{
+background-color: var(--cor-hover);
+}
+
+.navegacao20 ul ul{
+    display: none;
+    position: relative;
+}
 
 .lista0{
     color: white;
