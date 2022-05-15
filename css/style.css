@@ -160,7 +160,7 @@ background-position: 0% 50%;
     padding-top: 32%;
     padding-left: 45%;
     padding-right: 45%;
-    background-image: linear-gradient(to right, rgb(8, 90, 19), rgb(12, 131, 12));
+    background-color: rgb(8, 90, 19);
     margin-top: 3.8%;
     margin-left: 5%;
     width: 80%;
@@ -185,9 +185,9 @@ background-position: 0% 50%;
 .imagem030{
     position: absolute;
     margin-top: 2%;
-    margin-left: 14.9%;
-    width: 70%;
-    height: 75%;
+    margin-left: 10.5%;
+    width: 80%;
+    height: 73%;
     object-fit: cover;
 }
 
@@ -211,9 +211,8 @@ background-position: 0% 50%;
     position: absolute;
     margin-top: 2%;
     margin-left: 14.9%;
-    width: 70%;
+    width: 71%;
     height: 72%;
-    object-fit: cover;
 }
 
 .opcao0{
