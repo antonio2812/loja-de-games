@@ -33,11 +33,79 @@ padding-bottom: 1%;
 }
 
 #cabeçalho{
-text-align: right;
-background-color: rgb(29, 29, 29);
-padding-top: 2%;
-padding-bottom: 2%;
-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    background-color: rgb(29, 29, 29);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    }
+
+:root{
+    --cor-fundo : rgb(29, 29, 29);
+    --cor-hover : rgb(24, 139, 233);
+    --cor-primaria : #fff;
+}
+
+#cabeçalho .navegacao20 ul{
+list-style-type: none;
+padding: 0;
+}
+
+#cabeçalho .navegacao20 ul{
+    background-color: var(--cor-fundo);
+}
+
+#cabeçalho .navegacao20 ul li{
+    display: inline;
+    position: relative;
+}
+
+#cabeçalho .navegacao20 ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    transition: background .3s;
+}
+
+#cabeçalho .navegacao20 ul li a:hover{
+color: var(--cor-hover);
+}
+
+#cabeçalho .navegacao20 ul ul{
+display: none;
+left: 0;
+position: absolute;
+}
+
+#cabeçalho .navegacao20 ul li:hover ul{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    display: block;
+    border: 1px solid black;
+}
+
+#cabeçalho .navegacao20 ul ul{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    width: 100px;
+}
+
+#cabeçalho .navegacao20 ul ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .link1{
@@ -46,61 +114,14 @@ color: white;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
-
-:root{
-    --cor-fundo : rgb(24, 139, 233);
-    --cor-hover : rgb(24, 139, 233);
-    --cor-primaria: #fff;
-}
-
-.navegacao20 ul{
-list-style-type: none;
-padding: 0;
-position: absolute;
-}
-
-.navegacao20 ul li{
-display: inline-block;
-}
-
-.navegacao20 ul li a{
-    color: var(--cor-primaria);
-    text-decoration: none;
-    padding: 10px;
-}
-
-.navegacao20 ul li a:hover{
-background-color: var(--cor-hover);
-}
-
-.navegacao20 ul ul{
-    display: none;
-    position: relative;
-}
-
-.lista0{
-    color: white;
-    background-color: rgb(29, 29, 29);
-    padding: 0.5%;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-    cursor: pointer;
-}
-
-.lista0:hover{
-    color: rgb(24, 139, 233);
-    cursor: pointer;
-}
-
+  
 .link2{
     color: white;
     padding: 1%;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
-
+  
 .link3{
     color: white;
     padding: 1%;
@@ -110,12 +131,12 @@ background-color: var(--cor-hover);
 
 .paragrafo011{
     position: absolute;
-    padding-top: 34%;
+    padding-top: 33%;
     padding-left: 45%;
     padding-right: 45%;
     background-image: linear-gradient(45deg, rgb(19, 22, 119), rgb(53, 139, 238));
     background-size: 300% 300%;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 5%;
     width: 80%;
     height: 50%;
@@ -136,11 +157,11 @@ background-position: 0% 50%;
 
 .paragrafo08{
     position: absolute;
-    padding-top: 34%;
+    padding-top: 32%;
     padding-left: 45%;
     padding-right: 45%;
     background-image: linear-gradient(to right, rgb(8, 90, 19), rgb(12, 131, 12));
-    margin-top: 1%;
+    margin-top: 3.8%;
     margin-left: 5%;
     width: 80%;
     height: 60%;
@@ -149,12 +170,12 @@ background-position: 0% 50%;
 
 .paragrafo013{
     position: absolute;
-    padding-top: 34%;
+    padding-top: 33%;
     padding-left: 45%;
     padding-right: 45%;
     background-image: linear-gradient(45deg, rgb(155, 44, 29), rgb(248, 77, 46));
     background-size: 300% 300%;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 5%;
     width: 80%;
     height: 50%;
@@ -182,7 +203,7 @@ background-position: 0% 50%;
     position: absolute;
     right: 93%;
     left: 1%;
-    bottom: 85%;
+    bottom: 84%;
     object-fit: cover;
 }
 
@@ -191,7 +212,7 @@ background-position: 0% 50%;
     margin-top: 2%;
     margin-left: 14.9%;
     width: 70%;
-    height: 75%;
+    height: 72%;
     object-fit: cover;
 }
 
@@ -262,7 +283,7 @@ color: rgb(24, 139, 233);
 
 .imagem0{
     position: absolute;
-    top: 30%;
+    top: 33%;
     margin-right: 10%;
     margin-left: 10%;
     width: 80%;
@@ -272,9 +293,31 @@ color: rgb(24, 139, 233);
 
 #titulop{
     position: absolute;
-    bottom: 40%;
+    bottom: 34%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 0.6%;
+    margin-top: 8%;
+    margin-bottom: 18%;
+    margin-left: 31%;
+    color: black;
+    font-size: 23px;
+}
+
+#titulops{
+    position: absolute;
+    bottom: 35.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 8%;
+    margin-bottom: 18%;
+    margin-left: 31%;
+    color: black;
+    font-size: 23px;
+}
+
+#titulopn{
+    position: absolute;
+    bottom: 35.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 8%;
     margin-bottom: 18%;
     margin-left: 31%;
     color: black;
@@ -335,6 +378,7 @@ left: 9%;
 }
 
 .botao{
+    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 160%;
     left: 9%;
@@ -359,6 +403,7 @@ left: 9%;
 }
 
 .botao2{
+    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 166%;
     left: 9%;
@@ -602,6 +647,75 @@ background-color: rgb(78, 170, 245);
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root{
+    --cor-fundo : rgb(29, 29, 29);
+    --cor-hover : rgb(24, 139, 233);
+    --cor-primaria : #fff;
+}
+
+#rodape .navegacao20 ul{
+list-style-type: none;
+padding: 0;
+margin-right: 1%;
+}
+
+#rodape .navegacao20 ul{
+    background-color: var(--cor-fundo);
+}
+
+#rodape .navegacao20 ul li{
+    display: inline;
+    position: relative;
+}
+
+#rodape .navegacao20 ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    transition: background .3s;
+}
+
+#rodape .navegacao20 ul li a:hover{
+color: var(--cor-hover);
+}
+
+#rodape .navegacao20 ul ul{
+display: none;
+left: 0;
+position: absolute;
+}
+
+#rodape .navegacao20 ul li:hover ul{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    display: block;
+    border: 1px solid black;
+}
+
+#rodape .navegacao20 ul ul{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    width: 100px;
+}
+
+#rodape .navegacao20 ul ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 .link001{
 position: absolute;
 top: 201%;
@@ -627,13 +741,13 @@ color: white;
     padding: 1%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin-top: 9%;
+    margin-top: 10%;
 }
 
 .paragrafo1111{
     position: absolute;
     left: 38%;
-    top: 238%;
+    top: 239%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -655,34 +769,35 @@ color: white;
     padding: 1%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin-top: 8.5%;
+    margin-top: 10.1%;
+    margin-right: 2%;
 }
 
 .paragrafo11{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 231%;
-    left: 38%;
+    top: 233%;
+    left: 37%;
     margin-bottom: 3%;
     color: white;
 }
 
 .imagem980{
     position: absolute;
-    top: 211%;
-    left: 47.3%;
+    top: 214%;
+    left: 47%;
     width: 75px;
     height: 70px;
     object-fit: cover;
 }
 
-.imagem9800{
+.imagem98080{
     position: absolute;
-    top: 211%;
-    left: 47.3%;
+    top: 220%;
+    left: 47%;
     width: 75px;
     height: 70px;
-    object-fit: cover;   
+    object-fit: cover;
 }
 
 .imagem981{
