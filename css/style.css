@@ -131,6 +131,30 @@ position: absolute;
     cursor: pointer;
 }
 
+.linkmenu{
+color: rgb(24, 139, 233);
+}
+
+.linkmenu:hover{
+    color: rgb(87, 166, 245);
+}
+
+.linkmenu2{
+    color: rgb(24, 139, 233);
+}
+
+.linkmenu2:hover{
+    color: rgb(87, 166, 245);
+}
+
+.linkmenu3{
+    color: rgb(24, 139, 233);
+}
+
+.linkmenu3:hover{
+    color: rgb(87, 166, 245);
+}
+
 .paragrafo011{
     position: absolute;
     padding-top: 33%;
