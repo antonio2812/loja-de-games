@@ -10,8 +10,9 @@ body{
 }
 
 #acessibilidade{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 130%;
+    font-size: 105%;
 }
 
 #atalhos li{
@@ -40,7 +41,7 @@ padding-bottom: 1%;
 #cabeçalho{
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
-    font-size: 120%;
+    font-size: 105%;
     background-color: rgb(29, 29, 29);
     padding-top: 2%;
     padding-bottom: 2%;
@@ -84,7 +85,7 @@ color: var(--cor-hover);
 
 #cabeçalho .navegacao20 ul ul{
 display: none;
-left: 0;
+left: 3%;
 position: absolute;
 }
 
@@ -218,24 +219,24 @@ background-position: 0% 50%;
     margin-top: 2%;
     margin-left: 10.5%;
     width: 80%;
-    height: 73%;
+    height: 71%;
     object-fit: cover;
 }
 
 .secao28{
-    font-size: 120%;
+    font-size: 105%;
     margin-left: 1%;
     margin-top: 0.5%;
     margin-bottom: 1%;
 }
 
 .imagem30{
-    width: 90px;
-    height: 85px;
+    width: 89px;
+    height: 82px;
     position: absolute;
     right: 93%;
     left: 1%;
-    bottom: 88%;
+    bottom: 83.5%;
     object-fit: cover;
 }
 
@@ -314,7 +315,7 @@ color: rgb(24, 139, 233);
 
 .imagem0{
     position: absolute;
-    top: 28.3%;
+    top: 32.3%;
     margin-right: 10%;
     margin-left: 10%;
     width: 80%;
@@ -324,51 +325,51 @@ color: rgb(24, 139, 233);
 
 #titulop{
     position: absolute;
-    bottom: 40%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 36%;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 140%;
     margin-top: 8%;
     margin-bottom: 18%;
-    margin-left: 37%;
+    margin-left: 33%;
     color: black;
-    font-size: 23px;
 }
 
 #titulops{
     position: absolute;
-    bottom: 35.5%;
+    bottom: 37%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 8%;
     margin-bottom: 18%;
-    margin-left: 31%;
+    margin-left: 33%;
     color: black;
-    font-size: 23px;
+    font-size: 140%;
 }
 
 #titulopn{
     position: absolute;
-    bottom: 35.5%;
+    bottom: 37%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 8%;
     margin-bottom: 18%;
-    margin-left: 31%;
+    margin-left: 33%;
     color: black;
-    font-size: 23px;
+    font-size: 140%;
 }
 
 .subtitulo01{
     position: absolute;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 39%;
+    margin-top: 40%;
     margin-bottom: 9%;
     margin-left: 10%;
     color: black;
+    font-size: 21px;
 }
 
 .box{
     position: absolute;
-    top: 99%;
-    left: 70%;
+    top: 105%;
+    left: 71%;
     border: 1px solid black;
     outline: none;
     background-color: #353b48;
@@ -388,8 +389,8 @@ color: rgb(24, 139, 233);
 
 .btn{
     position: absolute;
-    top: 99.8%;
-    left: 85%;
+    top: 105.5%;
+    left: 86%;
     float: right;
     width: 35px;
     height: 35px;
@@ -407,8 +408,8 @@ color: rgb(24, 139, 233);
 
 .lupa{
     position: absolute;
-    top: 99.9%;
-    left: 85.1%;
+    top: 106.1%;
+    left: 86.3%;
     height: 4%;
     width: 2%;
 }
@@ -515,7 +516,7 @@ color: rgb(24, 139, 233);
 
 .imagem3{
 position: absolute;
-top: 119%;
+top: 117%;
 left: 9%;
 height: 35%;
 object-fit: cover;
@@ -523,7 +524,7 @@ object-fit: cover;
 
 .imagem3g{
     position: absolute;
-    top: 107%;
+    top: 119%;
     left: 9%;
     height: 34%;
     object-fit: cover; 
@@ -540,7 +541,7 @@ object-fit: cover;
 
 .imagem004{
     position: absolute;
-    top: 119%;
+    top: 117%;
     left: 34%;
     height: 35%;
     object-fit: cover;
@@ -548,9 +549,9 @@ object-fit: cover;
 
 .paragrafo1{
 font-family: Arial, Helvetica, sans-serif;
-font-size: 110%;
+font-size: 105%;
 position: absolute;
-top: 142%;
+top: 154%;
 left: 9%;
 }
 
@@ -558,7 +559,7 @@ left: 9%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     position: absolute;
-    top: 144.9%;
+    top: 158%;
     left: 9%;
     background-color: rgb(24, 139, 233);
     color: white;
@@ -569,23 +570,23 @@ left: 9%;
 
 .valorr{
     position: absolute;
-    font-size: 110%;
-    top: 145.6%;
-    left: 12%;
+    font-size: 105%;
+    top: 158.9%;
+    left: 12.9%;
     text-decoration: line-through;
 }
 
 .paragrafo2{
     position: absolute;
-    font-size: 110%;
-    top: 145.6%;
-    left: 15.5%;
+    font-size: 105%;
+    top: 158.9%;
+    left: 18.9%;
 }
 
 .botao2{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 166%;
+    top: 163.9%;
     left: 9%;
     border: 1px solid #000;
     background-color: rgb(24, 139, 233);
@@ -597,8 +598,7 @@ left: 9%;
     padding-bottom: 0.3%;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 110%;
-    top: 148.9%;
+    font-size: 105%;
 }
 
 .botao2:hover{
@@ -617,13 +617,13 @@ left: 9%;
 .paragrafo3303{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 154%;
+    top: 153%;
     left: 34%;  
 }
 
 .imagem005{
 position: absolute;
-top: 119.5%;
+top: 117%;
 left: 60%;
 height: 35%;
 object-fit: cover;
@@ -662,13 +662,13 @@ object-fit: cover;
 .paragrafo808{
 font-family: Arial, Helvetica, sans-serif;
 position: absolute;
-top: 155.7%;
+top: 154%;
 left: 82.9%;
 }
 
 .imagem006{
     position: absolute;
-    top: 119.5%;
+    top: 117%;
     left: 82.8%;
     height: 35%;
     object-fit: cover;
@@ -676,7 +676,7 @@ left: 82.9%;
 
 .imagem4{
     position: absolute;
-    top: 85.1%;
+    top: 96.9%;
     left: 26%;
     height: 78%;
     object-fit: cover;
@@ -684,28 +684,28 @@ left: 82.9%;
 
 .paragrafo3{
 font-family: Arial, Helvetica, sans-serif;
-font-size: 110%;
+font-size: 105%;
 position: absolute;
-top: 142.5%;
-left: 34.5%;
+top: 154%;
+left: 34%;
 }
 
 .frase01{
     position: absolute;
-    top: 157.3%;
+    top: 156%;
     left: 34%;
 }
 
 .paragrafo4{
-    font-size: 110%;
+    font-size: 105%;
     position: absolute;
-    top: 145.8%;
-    left: 34.5%;
+    top: 159.5%;
+    left: 34%;
 }
 
 .botao3{
     position: absolute;
-    top: 166%;
+    top: 163.9%;
     left: 33.9%;
     border: 1px solid #000;
     background-color: rgb(24, 139, 233);
@@ -717,9 +717,7 @@ left: 34.5%;
     padding-bottom: 0.3%;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 110%;
-    top: 148.9%;
-    left: 34.4%;
+    font-size: 105%;
 }
 
 .botao3:hover{
@@ -728,7 +726,7 @@ background-color: rgb(78, 170, 245);
 
 .imagem5{
     position: absolute;
-    top: 106.6%;
+    top: 117.9%;
     height: 35%;
     left: 60%;
     object-fit: cover;
@@ -736,15 +734,15 @@ background-color: rgb(78, 170, 245);
 
 .paragrafo5{
 font-family: Arial, Helvetica, sans-serif;
-font-size: 110%;
+font-size: 105%;
 position: absolute;
-top: 142.9%;
+top: 153.8%;
 left: 60.1%;
 }
 
 .botao4{
     position: absolute;
-    top: 145.4%;
+    top: 160.1%;
     left: 60%;
     background-color: rgb(24, 139, 233);
     color: white;
@@ -752,29 +750,29 @@ left: 60.1%;
     border-radius: 20%;
     padding: 0.3%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 110%;
+    font-size: 105%;
 }
 
 .paragrafo6{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 110%;
+    font-size: 105%;
     position: absolute;
-    top: 146.1%;
-    left: 63%;
+    top: 160.8%;
+    left: 63.9%;
     text-decoration: line-through;
 }
 
 .paragrafo7{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 110%;
+    font-size: 105%;
     position: absolute;
-    top: 146.1%;
-    left: 66.8%;
+    top: 160.8%;
+    left: 69.9%;
 }
 
 .botao5{
 position: absolute;
-top: 149.1%;
+top: 165.6%;
 left: 60%;
     border: 1px solid #000;
     background-color: rgb(24, 139, 233);
@@ -787,7 +785,7 @@ left: 60%;
     border-radius: 10px;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 110%;
+    font-size: 105%;
 }
 
 .botao5:hover{
@@ -796,7 +794,7 @@ background-color: rgb(78, 170, 245);
 
 .imagem6{
     position: absolute;
-    top: 106.6%;
+    top: 117.9%;
     left: 83%;
     height: 35%;
     object-fit: cover;
@@ -805,22 +803,22 @@ background-color: rgb(78, 170, 245);
 .paragrafo8{
 font-family: Arial, Helvetica, sans-serif;
 position: absolute;
-font-size: 110%;
-top: 143%;
+font-size: 105%;
+top: 154%;
 left: 83%;
 }
 
 .paragrafo9{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    font-size: 110%;
-    top: 146%;
-    left: 83%;
+    font-size: 105%;
+    top: 158.5%;
+    left: 83.1%;
 }
 
 .botao6{
 position: absolute;
-top: 149%;
+top: 163.9%;
 left: 83%;
     border: 1px solid #000;
     background-color: rgb(24, 139, 233);
@@ -832,7 +830,7 @@ left: 83%;
     padding-bottom: 0.3%;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 110%;
+    font-size: 105%;
     cursor: pointer;
 }
 
@@ -846,6 +844,7 @@ background-color: rgb(78, 170, 245);
     margin-top: 60%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 105%;
 }
 
 :root{
@@ -947,7 +946,7 @@ color: white;
 
 .paragrafo1111{
     position: absolute;
-    left: 38%;
+    left: 37.8%;
     top: 239%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -977,16 +976,15 @@ color: white;
 .paragrafo11{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 233%;
-    left: 37%;
-    margin-bottom: 3%;
+    top: 234%;
+    left: 36.9%;
     color: white;
 }
 
 .imagem980{
     position: absolute;
-    top: 214%;
-    left: 47%;
+    top: 215%;
+    left: 47.5%;
     width: 75px;
     height: 70px;
     object-fit: cover;
@@ -994,7 +992,7 @@ color: white;
 
 .imagem98080{
     position: absolute;
-    top: 220%;
+    top: 221.3%;
     left: 47%;
     width: 75px;
     height: 70px;
@@ -1024,3 +1022,4 @@ color: white;
     font-size: 80%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
