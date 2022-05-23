@@ -53,6 +53,70 @@ padding-bottom: 1%;
     --cor-primaria : #fff;
 }
 
+.checkbtn {
+	font-size: 30px;
+	color: #000;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#check {
+	display: none;
+}
+
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 858px){
+	.checkbtn {
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #1d075f;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	a:hover, a.active {
+		background: none;
+		color: #5434af;
+	}
+	#check:checked ~ ul {
+		left: 0;
+	}
+    body{
+        overflow-y: hidden;
+    }
+    #acessibilidade{
+        display: none;
+    }
+    #cabeçalho{
+        background-color: white;
+    }
+}
+
 #cabeçalho .navegacao20 ul{
 list-style-type: none;
 padding: 0;
@@ -85,18 +149,18 @@ color: var(--cor-hover);
 
 #cabeçalho .navegacao20 ul ul{
 display: none;
-left: 3%;
 position: absolute;
+left: 3%;
 }
 
 #cabeçalho .navegacao20 ul li:hover ul{
     text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-right: 3%;
     padding-left: 3%;
     display: block;
-    border: 1px solid black;
+    margin-bottom: 10%;
 }
 
 #cabeçalho .navegacao20 ul ul{
@@ -885,18 +949,18 @@ color: var(--cor-hover);
 
 #rodape .navegacao20 ul ul{
 display: none;
-left: 0;
 position: absolute;
+left: 0;
 }
 
 #rodape .navegacao20 ul li:hover ul{
     text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-right: 3%;
     padding-left: 3%;
     display: block;
-    border: 1px solid black;
+    margin-bottom: 10%;
 }
 
 #rodape .navegacao20 ul ul{
@@ -1022,4 +1086,3 @@ color: white;
     font-size: 80%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
