@@ -1086,3 +1086,73 @@ color: white;
     font-size: 80%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 1024px){
+#acessibilidade{
+    display: none;
+}
+.secao28{
+    position: absolute;
+    left: 0;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    font-size: 105%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+}
+.imagem30{
+    position: absolute;
+    right: 93%;
+    left: 1%;
+    bottom: 93.3%;
+    width: 67px;
+    height: 60px;
+    object-fit: cover;
+}
+.paragrafo08{
+    position: absolute;
+    bottom: 43%;
+    left: 1%;
+    height: 5%;
+    width: 5%;
+}
+.imagem0{
+    position: absolute;
+    bottom: 10%;
+    left: 1%;
+    height: 30%;
+    width: 80%;
+}
+#titulop{
+    display: inline;
+    position: absolute;
+    bottom: 66%;
+    right: 50%;
+}
+.subtitulo01{
+    position: absolute;
+    display: inline;
+    margin-top: 58%;
+    margin-right: 30%;
+}
+.box{
+    position: absolute;
+    bottom: 100%;
+    left: 70%;
+    padding: 1%;
+}
+.lupa{
+    position: absolute;
+    left: 0;
+    bottom: 30%;
+}
+.btn{
+    position: absolute;
+    left: 0;
+}
+}
+
+@media screen and (max-width: 600px){
+
+}
