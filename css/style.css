@@ -701,6 +701,19 @@ height: 35%;
 object-fit: cover;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .paragrafo0055{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
@@ -1091,6 +1104,9 @@ color: white;
 #acessibilidade{
     display: none;
 }
+body{
+    overflow-x: hidden;
+}
 .imagem30{
     width: 70px;
     height: 65px;
@@ -1424,6 +1440,243 @@ left: 80.3%;
     position: absolute;
     top: 213%;
     left: 31%;
+    color: white;
+}
+.paragrafo011{
+    position: absolute;
+    padding-top: 33%;
+    padding-left: 45%;
+    padding-right: 45%;
+    background-image: linear-gradient(45deg, rgb(19, 22, 119), rgb(53, 139, 238));
+    background-size: 300% 300%;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 80%;
+    height: 59%;
+    object-fit: cover;
+}
+.imagem030{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 11.5%;
+    width: 80%;
+    height: 59%;
+    object-fit: cover;
+}
+#titulops{
+    position: absolute;
+    bottom: 49%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8%;
+    margin-bottom: 18%;
+    margin-left: 29%;
+    color: black;
+    font-size: 140%;
+}
+.imagem3{
+position: absolute;
+top: 109%;
+left: 1%;
+height: 35%;
+object-fit: cover;
+}
+.imagem004{
+    position: absolute;
+    top: 109%;
+    left: 28.6%;
+    height: 35%;
+    object-fit: cover;
+}
+.imagem005{
+position: absolute;
+top: 109.8%;
+left: 54%;
+height: 35%;
+object-fit: cover;
+}
+.imagem006{
+    position: absolute;
+    top: 109.9%;
+    left: 79%;
+    height: 35%;
+    object-fit: cover; 
+}
+.box2{
+    position: absolute;
+    top: 94.5%;
+    left: 71%;
+    border: 1px solid black;
+    outline: none;
+    background-color: #353b48;
+    padding-right: 4%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.lupa2{
+    position: absolute;
+    top: 95.4%;
+    left: 89.9%;
+    height: 4%;
+    width: 2.9%;
+}
+.btn2{
+    position: absolute;
+    top: 95%;
+    left: 89.5%;
+    float: right;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.1; 
+}
+.paragrafo013{
+    position: absolute;
+    padding-top: 33%;
+    padding-left: 45%;
+    padding-right: 45%;
+    background-image: linear-gradient(45deg, rgb(155, 44, 29), rgb(248, 77, 46));
+    background-size: 300% 300%;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 80%;
+    height: 59%;
+    object-fit: cover;
+}
+.imagem039{
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 11.1%;
+    width: 80%;
+    height: 55%;
+}
+#titulopn{
+    position: absolute;
+    bottom: 49%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8%;
+    margin-bottom: 18%;
+    margin-left: 28.5%;
+    color: black;
+    font-size: 140%;
+}
+.imagem303{
+    position: absolute;
+    top: 108%;
+    left: 3%;
+    width: 16%;
+    height: 36%;
+    object-fit: cover;
+}
+.imagem0048{
+    position: absolute;
+    top: 108%;
+    left: 29%;
+    width: 16%;
+    height: 35%;
+    object-fit: cover;
+}
+.frase01{
+    position: absolute;
+    top: 145.9%;
+    left: 29%;
+}
+.paragrafo3303{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 143.1%;
+    left: 29%;
+}
+.imagem0055{
+    position: absolute;
+    top: 107.3%;
+    left: 56%;
+    height: 35%;
+    object-fit: cover;
+}
+.paragrafo0055{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 143%;
+    left: 56%;
+}
+.paragrafo0066{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 145.9%;
+    left: 56%;
+}
+.imagem00661{
+    position: absolute;
+    top: 107.5%;
+    left: 80.3%;
+    height: 35%;
+    object-fit: cover;
+}
+.paragrafo808{
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+top: 145%;
+left: 80.7%;
+}
+.box3{
+    position: absolute;
+    top: 94.5%;
+    left: 71%;
+    border: 1px solid black;
+    outline: none;
+    background-color: #353b48;
+    padding-right: 4%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.lupa3{
+    position: absolute;
+    top: 95.4%;
+    left: 89.9%;
+    height: 4%;
+    width: 2.9%;
+}
+.btn3{
+    position: absolute;
+    top: 95%;
+    left: 89.5%;
+    float: right;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.1; 
+}
+.imagem98080{
+    position: absolute;
+    top: 201.9%;
+    left: 47%;
+    width: 75px;
+    height: 70px;
+    object-fit: cover;
+}
+.paragrafo1111{
+    position: absolute;
+    left: 32%;
+    top: 218%;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 }
