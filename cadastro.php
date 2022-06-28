@@ -1,3 +1,27 @@
+<?php
+
+if(isset($_POST['submit'])){
+    //print_r('Nome: ' . $_POST['nome']);
+    //print_r('<br>');
+    //print_r('Email: ' . $_POST['email']);
+    //print_r('<br>');
+    //print_r('Telefone: ' . $_POST['telefone']);
+
+    include_once('config.php');
+
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+    $data_nascimento = $_POST['data_nascimento'];
+    $cidade = $_POST['cidade'];
+    $estado = $_POST['estado'];
+    $endereco = $_POST['endereco'];
+
+    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,email,telefone,data_nascimento,cidade,estado,endereco) VALUES ('$nome','$email','$telefone','$data_nascimento','$cidade','$estado','$endereco')");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -87,7 +111,7 @@
 <body>
 
 <div class="box">
-    <form action="#">
+    <form action="cadastro.php" method="POST">
         <fieldset>
             <legend><b>Formulário de Clientes</b></legend>
             <br>
