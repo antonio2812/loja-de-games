@@ -9,15 +9,16 @@ if(isset($_POST['submit'])){
 
     include_once('config.php');
 
-    $nome = $_POST['nome'];
+    $nome_completo = $_POST['nome_completo'];
     $email = $_POST['email'];
+    $senha = $_POST['senha'];
     $telefone = $_POST['telefone'];
     $data_nascimento = $_POST['data_nascimento'];
     $cidade = $_POST['cidade'];
     $estado = $_POST['estado'];
     $endereco = $_POST['endereco'];
 
-    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,email,telefone,data_nascimento,cidade,estado,endereco) VALUES ('$nome','$email','$telefone','$data_nascimento','$cidade','$estado','$endereco')");
+    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome_completo,email,senha,telefone,data_nascimento,cidade,estado,endereco) VALUES ('$nome_completo','$email','$senha','$telefone','$data_nascimento','$cidade','$estado','$endereco')");
 }
 
 ?>
@@ -106,18 +107,22 @@ if(isset($_POST['submit'])){
         background-color: deepskyblue;
         }
     </style>
-    <title>CADASTRO</title>
+    <title>Formulário</title>
 </head>
 <body>
 
+<div style="display: block;">
+<h1><a href="index.php">Voltar para a Página Inicial</a></h1>
+</div>
+
 <div class="box">
-    <form action="cadastro.php" method="POST">
+    <form action="cadastrar.php" method="POST">
         <fieldset>
             <legend><b>Formulário de Clientes</b></legend>
             <br>
             <div class="inputBox">
-                <input type="text" name="nome" id="nome" class="inputUser" required>
-                <label for="nome" class="labelinput">Nome Completo</label>
+                <input type="text" name="nome_completo" id="nome_completo" class="inputUser" required>
+                <label for="nome_completo" class="labelinput">Nome Completo</label>
             </div>
             <br><br>
             <div class="inputBox">
@@ -125,6 +130,12 @@ if(isset($_POST['submit'])){
                 <label for="email" class="labelinput">Email</label>
             </div>
             <br><br>
+            <div class="inputBox">
+            <input type="password" name="senha" id="senha" class="inputUser" required>
+            <label for="senha" class="labelinput">Senha</label>
+            </div>
+            <br>
+
             <div class="inputBox">
                 <input type="tel" name="telefone" id="telefone" class="inputUser" required>
                 <label for="telefone" class="labelinput">Telefone</label>

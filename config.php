@@ -3,7 +3,7 @@
 $dbHost = 'Localhost';
 $dbUsername = 'root';
 $dbPassword = '';
-$dbName = 'projeto_php';     //Colocar o nome no banco de dados
+$dbName = 'projeto_php';
 
 $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName)
 
