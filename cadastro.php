@@ -19,6 +19,8 @@ if(isset($_POST['submit'])){
     $endereco = $_POST['endereco'];
 
     $result = mysqli_query($conexao, "INSERT INTO usuarios(nome_completo,email,senha,telefone,data_nascimento,cidade,estado,endereco) VALUES ('$nome_completo','$email','$senha','$telefone','$data_nascimento','$cidade','$estado','$endereco')");
+
+    header('Location: entrar.php');
 }
 
 ?>
@@ -107,16 +109,14 @@ if(isset($_POST['submit'])){
         background-color: deepskyblue;
         }
     </style>
-    <title>Formulário</title>
+    <title>Cadastro</title>
 </head>
 <body>
 
-<div style="display: block;">
-<h1><a href="index.php">Voltar para a Página Inicial</a></h1>
-</div>
+<h3><a href="index.php">Voltar</a></h3>
 
 <div class="box">
-    <form action="cadastrar.php" method="POST">
+    <form action="" method="POST">
         <fieldset>
             <legend><b>Formulário de Clientes</b></legend>
             <br>
@@ -131,11 +131,10 @@ if(isset($_POST['submit'])){
             </div>
             <br><br>
             <div class="inputBox">
-            <input type="password" name="senha" id="senha" class="inputUser" required>
-            <label for="senha" class="labelinput">Senha</label>
+                <input type="password" name="senha" id="senha" class="inputUser" required>
+                <label for="senha" class="labelinput">Senha</label>
             </div>
-            <br>
-
+            <br><br>
             <div class="inputBox">
                 <input type="tel" name="telefone" id="telefone" class="inputUser" required>
                 <label for="telefone" class="labelinput">Telefone</label>

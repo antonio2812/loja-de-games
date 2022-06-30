@@ -29,7 +29,7 @@
             font-size: 15px;
         }
 
-        button{
+        .inputSubmit{
             background-color: dodgerblue;
             border: none;
             padding: 15px;
@@ -40,20 +40,24 @@
             cursor: pointer;
         }
 
-        button:hover{
+        .inputSubmit:hover{
             background-color: deepskyblue;
         }
     </style>
 </head>
 <body>
 
+<h3><a href="cadastro.php">Voltar</a></h3>
+
 <div>
     <h1>Entrar</h1>
-    <input type="text" placeholder="Nome">
+    <form action="testelogin.php" method="POST">
+    <input type="text" placeholder="Email">
     <br><br>
     <input type="password" placeholder="Senha">
     <br><br>
-    <button>Enviar</button>
+    <input class="inputSubmit" type="submit" name="submit" value="Enviar">
+    </form>
 </div>
 
 </body>
