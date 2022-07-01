@@ -116,7 +116,7 @@ if(isset($_POST['submit'])){
 <h3><a href="index.php">Voltar</a></h3>
 
 <div class="box">
-    <form action="" method="POST">
+    <form action="entrar.php" method="POST">
         <fieldset>
             <legend><b>Formulário de Clientes</b></legend>
             <br>
