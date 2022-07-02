@@ -1,7 +1,8 @@
 <?php
 
-if(isset($_POST['submit'])){
-    //print_r('Nome: ' . $_POST['nome']);
+if(isset($_POST['submit']))
+{
+    //print_r('Nome: ' . $_POST['nome_completo']);
     //print_r('<br>');
     //print_r('Email: ' . $_POST['email']);
     //print_r('<br>');
@@ -116,7 +117,7 @@ if(isset($_POST['submit'])){
 <h3><a href="index.php">Voltar</a></h3>
 
 <div class="box">
-    <form action="entrar.php" method="POST">
+    <form action="cadastro.php" method="POST">
         <fieldset>
             <legend><b>Formulário de Clientes</b></legend>
             <br>
