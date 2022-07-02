@@ -19,7 +19,7 @@ if(isset($_POST['submit']))
     $estado = $_POST['estado'];
     $endereco = $_POST['endereco'];
 
-    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome_completo,email,senha,telefone,data_nascimento,cidade,estado,endereco) VALUES ('$nome_completo','$email','$senha','$telefone','$data_nascimento','$cidade','$estado','$endereco')");
+    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome_completo,email,senha,telefone,data_nascimento,cidade,estado,endereco) VALUES ('$nome_completo','$email',md5("'$senha'"),'$telefone','$data_nascimento','$cidade','$estado','$endereco')");
 
     header('Location: entrar.php');
 }
