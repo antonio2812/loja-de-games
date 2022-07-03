@@ -19,7 +19,7 @@ if(isset($_POST['submit']))
     $estado = $_POST['estado'];
     $endereco = $_POST['endereco'];
 
-    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome_completo,email,senha,telefone,data_nascimento,cidade,estado,endereco) VALUES ('$nome_completo','$email',md5("'$senha'"),'$telefone','$data_nascimento','$cidade','$estado','$endereco')");
+    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome_completo,email,senha,telefone,data_nascimento,cidade,estado,endereco) VALUES ('$nome_completo','$email',md5("'$senha'"),md5("'$telefone'"),'$data_nascimento','$cidade','$estado',md5("'$endereco'")");
 
     header('Location: entrar.php');
 }
@@ -36,7 +36,7 @@ if(isset($_POST['submit']))
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(45deg, rgb(19, 22, 119), rgb(53, 139, 238));
+            background-image: linear-gradient(45deg, rgb(29, 29, 29), rgb(29, 29, 29));
         }
 
         .box{
@@ -45,7 +45,10 @@ if(isset($_POST['submit']))
             left: 50%;
             transform: translate(-50%, -50%);
             background-color: rgba(0, 0, 0, 0.9);
-            padding: 15px;
+            padding-top: 25px;
+            padding-bottom: 20px;
+            padding-right: 70px;
+            padding-left: 70px;
             border-radius: 15px;
             width: 25%;
             color: white;
@@ -109,8 +112,21 @@ if(isset($_POST['submit']))
         #submit:hover{
         background-color: deepskyblue;
         }
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: rgb(24, 139, 233);
+        }
     </style>
     <title>Cadastro</title>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="JavaScript/mask.js"></script>
+
 </head>
 <body>
 
@@ -127,7 +143,7 @@ if(isset($_POST['submit']))
             </div>
             <br><br>
             <div class="inputBox">
-                <input type="text" name="email" id="email" class="inputUser" required>
+                <input type="email" name="email" id="email" class="inputUser" required>
                 <label for="email" class="labelinput">Email</label>
             </div>
             <br><br>
