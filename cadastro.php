@@ -19,7 +19,7 @@ if(isset($_POST['submit']))
     $estado = $_POST['estado'];
     $endereco = $_POST['endereco'];
 
-    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome_completo,email,senha,telefone,data_nascimento,cidade,estado,endereco) VALUES ('.$nome_completo.','.$email.',md5('.$senha.'),md5('.$telefone.'),'.$data_nascimento.','.$cidade.','.$estado.',md5('.$endereco.')");
+    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome_completo,email,senha,telefone,data_nascimento,cidade,estado,endereco) VALUES ('.$nome_completo.','.$email.',md5('.$senha.'),md5('.$telefone.'),'.$data_nascimento.','.$cidade.','.$estado.',md5('.$endereco'.)");
 
     header('Location: entrar.php');
 }
@@ -133,7 +133,7 @@ if(isset($_POST['submit']))
 <h3><a href="index.php">Voltar</a></h3>
 
 <div class="box">
-    <form action="cadastro.php" method="POST">
+    <form action="entrar.php" method="POST">
         <fieldset>
             <legend><b>Formulário de Clientes</b></legend>
             <br>
