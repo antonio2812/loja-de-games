@@ -59,7 +59,7 @@
 
 <div>
     <h1>Entrar</h1>
-    <form action="sistema.html" method="POST">
+    <form action="sistema.php" method="POST">
     <input type="text" name="email" placeholder="Email">
     <br><br>
     <input type="password" name="senha" placeholder="Senha">

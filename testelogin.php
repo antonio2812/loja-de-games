@@ -12,7 +12,7 @@ if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])
     //print_r('<br>');
     //print_r('Senha: ' . $senha);
 
-    $sql = "SELECT * FROM usuarios WHERE email = '$email' and senha = md5("'$senha'")";
+    $sql = $conexao->query('select id,nome_completo,email,senha,telefone,data_nascimento,cidade,estado,endereco from usuarios where email = "'.$email.'" and senha = md5("'.$senha.'")');
 
     $result = $conexao->query($sql);
 
