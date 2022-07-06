@@ -63,12 +63,6 @@ $logado = $_SESSION['email'];
     echo "<br>";
     echo "<h1>Bem vindo <u>$logado</u></h1>";
     echo "<br>";
-    echo "<br>";
-    echo "<br>";
-    echo "<br>";
-    echo "<br>";
-    echo "<br>";
-    echo "<br>";
     echo "<h2>Volte e compre quantos jogos desejar</h2>";
     ?>
 </body>

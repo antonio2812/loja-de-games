@@ -23,7 +23,7 @@ if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])
     {
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
-        header('Location: entrar.php');
+        header('Location: cadastrar.php');
     }
     else
     {
@@ -35,6 +35,6 @@ if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])
 else
 {
     //Nao acessa
-    header('Location: entrar.php');
+    header('Location: cadastrar.php');
 }
 ?>

@@ -129,7 +129,7 @@
                 <label for="telefone" class="labelinput">Telefone</label>
             </div>
             <br>
-                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                <label for="data_nascimento"><br>Data de Nascimento:</br></label>
                 <input type="date" name="data_nascimento" id="data_nascimento" required>
             <br><br><br>
             <div class="inputBox">

@@ -37,7 +37,7 @@ padding-bottom: 1%;
 }
 
 #atalhos li a:hover{
-    color: yellow;
+    color: rgb(196, 196, 31);
     padding: 1%;
 }
 
@@ -59,7 +59,6 @@ color: yellow;
 }
 
 #cabeçalho .navegacao20 ul{
-    background-color: #fff;
     color: yellow;
 }
 
@@ -81,7 +80,7 @@ color: yellow;
 }
 
 #cabeçalho .navegacao20 ul li a:hover{
-color: yellow;
+color: rgb(196, 196, 31);
 }
 
 #cabeçalho .navegacao20 ul ul{
@@ -99,7 +98,7 @@ color: yellow;
     padding-left: 3%;
     display: block;
     margin-bottom: 10%;
-    color: yellow;
+    color: rgb(196, 196, 31);
 }
 
 #cabeçalho .navegacao20 ul ul{
@@ -147,7 +146,7 @@ color: yellow;
 }
 
 .linkmenu:hover{
-    color: yellow;
+    color: rgb(196, 196, 31);
 }
 
 .linkmenu2{
@@ -155,7 +154,7 @@ color: yellow;
 }
 
 .linkmenu2:hover{
-    color: yellow;
+    color: rgb(196, 196, 31);
 }
 
 .linkmenu3{
@@ -163,7 +162,7 @@ color: yellow;
 }
 
 .linkmenu3:hover{
-    color: yellow;
+    color: rgb(196, 196, 31);
 }
 
 .paragrafo011{
@@ -853,8 +852,6 @@ background-color: rgb(78, 170, 245);
 
 :root{
     --cor-fundo : rgb(29, 29, 29);
-    --cor-hover : rgb(24, 139, 233);
-    --cor-primaria : #fff;
 }
 
 #rodape .navegacao20 ul{
@@ -873,7 +870,7 @@ margin-right: 1%;
 }
 
 #rodape .navegacao20 ul li a{
-    color: var(--cor-primaria);
+    color: yellow;
     text-decoration: none;
     display: inline-block;
     padding-top: 1%;
@@ -884,7 +881,7 @@ margin-right: 1%;
 }
 
 #rodape .navegacao20 ul li a:hover{
-color: var(--cor-hover);
+color: rgb(196, 196, 31);
 }
 
 #rodape .navegacao20 ul ul{
