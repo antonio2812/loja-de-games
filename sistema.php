@@ -5,7 +5,7 @@ if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)
 {
     unset($_SESSION['email']);
     unset($_SESSION['senha']);
-
+    
 }
 
 $logado = $_SESSION['email'];
@@ -50,6 +50,9 @@ $logado = $_SESSION['email'];
         </div>
     </nav>
     <br>
+    <div>
+        
+    </div>
     <?php
     echo "<br>";
     echo "<br>";
@@ -61,7 +64,10 @@ $logado = $_SESSION['email'];
     echo "<br>";
     echo "<br>";
     echo "<br>";
-    echo "<h1>Bem vindo <u>$logado</u></h1>";
+    echo "<h1>BEM VINDO AO SISTEMA <u>$logado</u></h1>";
+    echo "<br>";
+    echo "<br>";
+    echo "<br>";
     echo "<br>";
     echo "<h2>Volte e compre quantos jogos desejar</h2>";
     ?>

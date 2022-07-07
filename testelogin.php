@@ -12,7 +12,7 @@ if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])
     //print_r('<br>');
     //print_r('Senha: ' . $senha);
 
-    $sql = $conexao->query('select id,nome_completo,email,senha,telefone,data_nascimento,cidade,estado,endereco from usuarios where email = "'.$email.'" and senha = md5("'.$senha.'")');
+    $sql = "SELECT * FROM usuarios WHERE email = '$email' and senha = '$senha'";
 
     $result = $conexao->query($sql);
 
@@ -23,7 +23,7 @@ if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])
     {
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
-        header('Location: cadastrar.php');
+        header('Location: entrar.php');
     }
     else
     {
@@ -35,6 +35,6 @@ if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])
 else
 {
     //Nao acessa
-    header('Location: cadastrar.php');
+    header('Location: entrar.php');
 }
 ?>
