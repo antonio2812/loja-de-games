@@ -8,7 +8,7 @@ if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)
     
 }
 
-$logado = $_SESSION['email'];
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -64,12 +64,15 @@ $logado = $_SESSION['email'];
     echo "<br>";
     echo "<br>";
     echo "<br>";
-    echo "<h1>BEM VINDO AO SISTEMA <u>$logado</u></h1>";
+    echo "<h1>BEM VINDO AO SISTEMA</h1>";
+    echo $logado = $_SESSION['email'];
     echo "<br>";
     echo "<br>";
     echo "<br>";
     echo "<br>";
     echo "<h2>Volte e compre quantos jogos desejar</h2>";
     ?>
+
+    <!-- Responsividade: 1650px, 1440px, 1280px, 1180px, 1024px, 600px, 440px, 360px --> 
 </body>
 </html>
