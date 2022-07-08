@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +21,7 @@
         <li><a href="#titulopn" accesskey="1" title="Ir para o conteúdo">Ir para o conteúdo [1]</a></li>
         <li><a href="#cabeçalho" accesskey="2" title="Ir para o menu de navegação">Ir para o menu [2]</a></li>
         <li><a href="#rodape" accesskey="3" title="Ir para o rodapé">Ir para o rodapé [3]</a></li>
-        <li id="pgacess"><a href="acessibilidade.html" title="Ir para a página de acessibilidade">ACESSIBILIDADE</a></li>
+        <li id="pgacess"><a href="acessibilidade.php" title="Ir para a página de acessibilidade">ACESSIBILIDADE</a></li>
         <li class="contraste"><a href="javascript:void(0);" id="contraste" title="Ativar contraste">CONTRASTE</a></li>
         <li class="contraste"><a href="javascript:void(0);" id="semcontraste" title="Desativar contraste">SEM CONTRASTE</a></li>
         <li class="fonte"><a href="javascript:void(0);" id="aumenta" title="Aumentar o tamanho da fonte">A +</a></li>
@@ -33,16 +33,16 @@
 <img class="imagem30" src="imagens/Untitled-1.png" alt="logo do site">
 <nav class="navegacao20">
   <ul>
-    <li><a href="index.html">Início</a></li>
+    <li><a href="index.php">Início</a></li>
     <li><a href="#">Categorias</a>
       <ul>
-        <li><a href="index.html">Xbox</a></li>
-        <li><a href="playstation.html">Playstation</a></li>
-        <li><a href="nintendo.html">Nintendo</a></li>
+        <li><a href="index.php">Xbox</a></li>
+        <li><a href="playstation.php">Playstation</a></li>
+        <li><a href="nintendo.php">Nintendo</a></li>
       </ul>
     </li>
-    <li><a href="cadastro.html">Cadastrar-se</a></li>
-    <li><a href="entrar.html">Entrar</a></li>
+    <li><a href="cadastro.php">Cadastrar-se</a></li>
+    <li><a href="entrar.php">Entrar</a></li>
   </ul>
   </nav>
 </header>
@@ -60,7 +60,7 @@
   </script>
   <ol>
     <li>
-      <a class="linkmenu3" href="index.html">Início</a>
+      <a class="linkmenu3" href="index.php">Início</a>
     </li>
     <li>
       Nintendo
@@ -118,16 +118,16 @@
   <h2 class="subtitulo02"><b>Mapa do Site</b></h2><br>
   <nav class="navegacao20">
     <ul>
-      <li><a href="index.html">Início</a></li>
+      <li><a href="index.php">Início</a></li>
       <li><a href="#">Categorias</a>
         <ul>
-          <li><a href="index.html">Xbox</a></li>
-          <li><a href="playstation.html">Playstation</a></li>
-          <li><a href="nintendo.html">Nintendo</a></li>
+          <li><a href="index.php">Xbox</a></li>
+          <li><a href="playstation.php">Playstation</a></li>
+          <li><a href="nintendo.php">Nintendo</a></li>
         </ul>
       </li>
-      <li><a href="cadastro.html">Cadastrar-se</a></li>
-      <li><a href="entrar.html">Entrar</a></li>
+      <li><a href="cadastro.php">Cadastrar-se</a></li>
+      <li><a href="entrar.php">Entrar</a></li>
     </ul>
     </nav><br>
   <p class="paragrafo1010">Todos os Direitos Autorais Reservados &copy;2022</p><br>
