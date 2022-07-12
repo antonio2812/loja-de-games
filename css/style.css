@@ -464,7 +464,7 @@ color: rgb(24, 139, 233);
 .subtitulo01n{
     position: absolute;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 39.5%;
+    margin-top: 37.5%;
     margin-bottom: 9%;
     margin-left: 10%;
     color: black;
@@ -569,7 +569,7 @@ color: rgb(24, 139, 233);
 
 .box3{
     position: absolute;
-    top: 107.5%;
+    top: 106.2%;
     left: 71%;
     border: 1px solid black;
     outline: none;
@@ -590,7 +590,7 @@ color: rgb(24, 139, 233);
 
 .btn3{
     position: absolute;
-    top: 107.9%;
+    top: 106.9%;
     left: 86.3%;
     float: right;
     width: 35px;
@@ -609,7 +609,7 @@ color: rgb(24, 139, 233);
 
 .lupa3{
     position: absolute;
-    top: 108.5%;
+    top: 107.6%;
     left: 86.6%;
     height: 4%;
     width: 2%;
@@ -1122,7 +1122,7 @@ color: white;
 
 .imagem98080{
     position: absolute;
-    top: 224%;
+    top: 225%;
     left: 47%;
     width: 75px;
     height: 70px;
