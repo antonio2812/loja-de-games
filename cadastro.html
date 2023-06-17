@@ -158,31 +158,28 @@
             </fieldset>
         </form>
     </div>
-    <?php
-    print_r('Nome: ' . $_POST['nome_completo']);
-    print_r('<br>');
-    print_r('Email: ' . $_POST['email']);
-    print_r('<br>');
-    print_r('Telefone: ' . $_POST['telefone']);
+    <!-- <?php
+        print_r('Nome: ' . $_POST['nome_completo']);
+        print_r('<br>');
+        print_r('Email: ' . $_POST['email']);
+        print_r('<br>');
+        print_r('Telefone: ' . $_POST['telefone'])
+        require('conexao.php')
+        $nome_completo = $_POST['nome_completo'];
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+        $telefone = $_POST['telefone'];
+        $data_nascimento = $_POST['data_nascimento'];
+        $cidade = $_POST['cidade'];
+        $estado = $_POST['estado'];
+        $endereco = $_POST['endereco'];
 
-    require('conexao.php');
+        $result = "insert into usuarios (nome_completo, email, senha, telefone, data_nascimento, cidade, estado, endereco) values ('.$nome_completo.','.$email.','.$senha.','.$telefone.','.$data_nascimento.','.$cidade.','.$estado.','.$endereco.')";
 
-    $nome_completo = $_POST['nome_completo'];
-    $email = $_POST['email'];
-    $senha = $_POST['senha'];
-    $telefone = $_POST['telefone'];
-    $data_nascimento = $_POST['data_nascimento'];
-    $cidade = $_POST['cidade'];
-    $estado = $_POST['estado'];
-    $endereco = $_POST['endereco'];
-
-    $result = "insert into usuarios (nome_completo, email, senha, telefone, data_nascimento, cidade, estado, endereco) values ('.$nome_completo.','.$email.','.$senha.','.$telefone.','.$data_nascimento.','.$cidade.','.$estado.','.$endereco.')";
-
-    $inserir = $conexao->prepare($result);
-    $inserir->execute();
-
-    header('Location: entrar.php');
-?>
+        $inserir = $conexao->prepare($result);
+        $inserir->execute()
+        header('Location: entrar.php');
+    ?> -->
 </body>
 
 </html>
