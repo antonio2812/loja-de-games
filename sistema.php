@@ -73,7 +73,6 @@ if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)
     echo "<br>";
     echo "<h2>Volte e compre quantos jogos desejar</h2>";
     ?>
-
-    <!-- Responsividade: 1650px, 1440px, 1280px, 1180px, 1024px, 600px, 440px, 360px --> 
+    
 </body>
 </html>
