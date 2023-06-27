@@ -1,4 +1,4 @@
-<h1 align="center"> Projeto1 </h1>
+<h1 align="center"> Loja de Games </h1>
 
 <p align="center">
   <a href="#--projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -15,35 +15,38 @@
 
 <br>
 
+![print-loja-de-games](https://github.com/antonio2812/loja-de-games/assets/104834145/b674f7bd-f44c-45ae-87bb-1c9ac7fa7290)
 
+![print-loja-de-games](https://github.com/antonio2812/loja-de-games/assets/104834145/da09efd7-23af-4b94-89b5-8d50988d63dc)
 
 ## 💻  Projeto
 
-O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM. Desenvolvido durante o Explorer-Lab-01, evento organizado pela Rocketseat.
+A Loja de Games é uma aplicação web que tem o propósito de vender Games Fictícios. Contém 3 páginas mostrando os jogos que podem ser comprados, Página de Login e Formulário de Cadastro. Após o usuário se cadastrar ele(a) vai ter acesso ao Sistema do Usuário. Desenvolvido durante o curso técnico de Programação Web da Obra Social Dom Bosco.
 
-[Visite o projeto online](https://antonio2812.github.io/Rocketpay)
+[Visite o projeto online](https://antonio2812.github.io/loja-de-games)
 
 ## ⚡  Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML5 e CSS3
-- JavaScript e JSON
+- JavaScript
+- JQuery
+- PHP
+- SQL
+- MySQL
 - Git e GitHub
-- [Node e NPM](https://nodejs.org/)
-- [Vite](https://vitejs.dev/)
-- [iMask](https://imask.js.org)
 
 ## 🤝  Como Contribuir
 
 ```bash
   # Clone o projeto
-  $ git clone https://github.com/antonio2812/Rocketpay.git
+  $ git clone https://github.com/antonio2812/loja-de-games.git
 ````
 
 ```bash
   # Entrar no diretório
-  $ cd Rocketpay
+  $ cd loja-de-games
 ```
 
 ```bash
@@ -78,3 +81,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 * [Discord](https://discord.com/channels/@me)
 
 ## ✨  Mostre seu apoio
+
+Dar uma⭐️se esse projeto te ajudou ou inspirou!
+
+## :memo:  Licença
+
+Esse projeto está sob a licença MIT. Consulte o arquivo <a href="https://github.com/antonio2812/loja-de-games/blob/main/LICENSE">LICENSE</a> para mais detalhes.
