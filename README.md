@@ -23,19 +23,24 @@
 
 A Loja de Games é uma aplicação web que tem o propósito de vender Games Fictícios. Contém 3 páginas mostrando os jogos que podem ser comprados, Página de Login e Formulário de Cadastro. Após o usuário se cadastrar ele(a) vai ter acesso ao Sistema do Usuário. Desenvolvido durante o curso técnico de Programação Web da Obra Social Dom Bosco.
 
+Observação: responsividade em andamento.
+
 [Visite o projeto online](https://antonio2812.github.io/loja-de-games)
 
 ## ⚡  Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
+#### Front-end
 - HTML5 e CSS3
 - JavaScript
 - JQuery
+- Git e GitHub
+
+#### Back-end
 - PHP
 - SQL
 - MySQL
-- Git e GitHub
 
 ## 🤝  Como Contribuir
 
