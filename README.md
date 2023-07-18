@@ -21,7 +21,7 @@
 
 ## 💻  Projeto
 
-A Loja de Games é uma aplicação web que tem o propósito de vender Games Fictícios. Contém 3 páginas mostrando os jogos que podem ser comprados, Página de Login e Formulário de Cadastro. Após o usuário se cadastrar ele(a) vai ter acesso ao Sistema do Usuário. Desenvolvido durante o curso técnico de Programação Web da Obra Social Dom Bosco.
+A Loja de Games é uma aplicação web que tem o propósito de vender Games Fictícios. Contém 3 páginas mostrando os jogos que podem ser comprados, Página de Login e Formulário de Cadastro. Após o usuário se cadastrar ele(a) vai ter acesso ao Sistema do Usuário. Desenvolvido durante o curso Profissionalizante de Programação Web da Obra Social Dom Bosco.
 
 Observação: responsividade e back-end em andamento.
 
